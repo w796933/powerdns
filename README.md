@@ -1,3 +1,9 @@
+/usr/share/doc/pdns-backend-sqlite-4.0.4/schema.sqlite3.sql 修改了源项目的这个路径。可以正常编译
+
+
+
+
+
 PowerDNS in Docker with master/slave configuration
 
 This Dockerfile by default will build a PowerDNS image configured to be master.
