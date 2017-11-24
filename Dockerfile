@@ -12,7 +12,7 @@ RUN curl -o /etc/yum.repos.d/powerdns-auth-40.repo \
 RUN mkdir /var/run/pdns && chown 1001:0 /var/run/pdns && \
     chmod -R g+rw /var/run/pdns && mkdir /etc/pdns/zones && \
     sqlite3 /etc/pdns/zones/pdns.sqlite3 < \
-    /usr/share/doc/pdns-backend-sqlite-4.0.1/schema.sqlite3.sql && \
+    /usr/share/doc/pdns-backend-sqlite-4.0.4/schema.sqlite3.sql && \
     chown -R 1001:0 /etc/pdns && chmod -R g+rw /etc/pdns
 
 ARG role=master
